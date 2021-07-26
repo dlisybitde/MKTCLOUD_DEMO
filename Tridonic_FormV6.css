@@ -54,6 +54,12 @@
                 padding-right: 0;
             }
 
+            .sapCpButtonWidget .sapCRLWidgetContent.sapCRLWidgetContentRight.sapCpWidgetContent.sapCpWidgetContentRight,
+            .sapCpButtonWidget .sapCRLWidgetContentNoIndent
+            {
+                min-width:100%!important;
+                width:100% !important;
+            }
             .sapCpButtonWidget .sapCpWidgetContent, .sapCpButtonWidget .sapCpWidgetContentNoIndent {
                 text-align: left;
                 margin-top: 10px;
