@@ -1,4 +1,7 @@
-			.sapCpWidget {
+	.sapCpLayout {
+		background: rgb(237,237,237);
+			}	
+	.sapCpWidget {
               text-align: left;
             }
             .sapCpWidget input[type=text],
