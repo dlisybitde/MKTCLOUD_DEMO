@@ -1,0 +1,79 @@
+			.sapCpWidget {
+              text-align: left;
+            }
+            .sapCpWidget input[type=text],
+            .sapCpWidget input[type=email],
+            .sapCpWidget input[type=tel],
+            .sapCpDropDown,
+            .sapCpTextArea
+            {
+                border-radius: 0px;
+                padding: 0px 10px 0px 10px;
+                border-color: rgb(133,151,174);
+                border-width: 1px;
+            }
+            .sapCpWidget input[type=checkbox] {
+                display: inline-block;
+                border-radius: 0px;
+            }
+            .sapCpCheckBox {
+                margin-top: 0px;
+            }
+            .sapCpWidget input:not([type=checkbox]):not([type=radio]) {
+                display: block;
+                width: 100%;
+            }
+            .sapCpWidget label {
+                color: rgb(0,0,0);
+                margin-bottom: 0;
+                text-align: left;
+                display: inline-block;
+            }
+            .sapCpCheckBoxWidget label{
+                vertical-align:baseline;
+            }
+            .sapCpWidget label.error {
+                display: block;
+                width: 100%;
+                text-align: right;
+                font-size: 1em;
+                font-weight: normal;
+                padding-right: 0;
+            }
+            div.sapCRLWidgetContent.sapCRLWidgetContentRight.sapCpWidgetContent.sapCpWidgetContentRight{
+                padding-left:0%!important;
+            }
+            div.sapCRLWidgetContent.sapCRLWidgetContentLeft.sapCpWidgetContent.sapCpWidgetContentLeft{
+                float: none;
+                text-align: inherit;
+            }
+            .sapCpButtonWidget .sapCRLWidgetContent.sapCRLWidgetContentLeft.sapCpWidgetContent.sapCpWidgetContentLeft{
+                min-width:0%!important;
+                width:0% !important;
+            }
+            .sapCpButtonWidget .sapCRLWidgetContent.sapCRLWidgetContentRight.sapCpWidgetContent.sapCpWidgetContentRight,
+            .sapCpButtonWidget .sapCRLWidgetContentNoIndent
+            {
+                min-width:100%!important;
+                width:100% !important;
+            }
+            .sapCpButtonWidget .sapCpWidgetContent, .sapCpButtonWidget .sapCpWidgetContentNoIndent {
+                text-align: left;
+                margin-top: 10px;
+            }
+            .sapCpButton {
+              border-radius: 4px;
+              border-style: solid;
+              border-color: #d8d8d8;
+              color: rgb(255,255,255);
+              border-width: 0px;
+              background: rgb(0,157,224);
+              padding-top: 8px;
+              padding-bottom: 8px;
+              padding-left: 20px;
+              padding-right: 20px;
+              width: auto;
+            }
+            .sapCpButton:hover {
+              background: rgb(45,126,178);
+            }
