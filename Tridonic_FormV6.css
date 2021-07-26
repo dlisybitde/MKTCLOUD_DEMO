@@ -1,0 +1,76 @@
+			.sapCpLayout {
+				background: rgb(237,237,237);
+				color: black;
+				font-size: 14px;
+			}
+			.sapCpWidget {
+              text-align: left;
+			  padding: 2px;
+			  margin-top: 2px;
+            }
+            .sapCpWidget input[type=text],
+            .sapCpWidget input[type=email],
+            .sapCpWidget input[type=tel],
+            .sapCpDropDown,
+            .sapCpTextArea
+            {
+                border-radius: 0px;
+                padding: 0px 10px 0px 10px;
+                border-color: rgb(133,151,174);
+                border-width: 1px;
+				height: 25px;
+            }
+            .sapCpWidget input[type=checkbox] {
+                display: inline-block;
+                border-radius: 0px;
+            }
+            .sapCpInputWidget select{
+				height: 25px;
+			}
+			
+			.sapCpCheckBox {
+                margin-top: 0px;
+            }
+            .sapCpWidget input:not([type=checkbox]):not([type=radio]) {
+                display: block;
+                width: 95%;
+            }
+            .sapCpWidget label {
+                color: rgb(0,0,0);
+                margin-bottom: 0;
+                text-align: left;
+                display: inline-block;
+				line-height: 14px;
+            }
+            .sapCpCheckBoxWidget label{
+                vertical-align:baseline;
+            }
+            .sapCpWidget label.error {
+                display: block;
+                width: 100%;
+                text-align: right;
+                font-size: 1em;
+                font-weight: normal;
+                padding-right: 0;
+            }
+
+            .sapCpButtonWidget .sapCpWidgetContent, .sapCpButtonWidget .sapCpWidgetContentNoIndent {
+                text-align: left;
+                margin-top: 10px;
+            }
+            .sapCpButton {
+              border-radius: 4px;
+              border-style: solid;
+              border-color: #d8d8d8;
+              color: rgb(255,255,255);
+              border-width: 0px;
+              background: rgb(0,157,224);
+              padding-top: 8px;
+              padding-bottom: 8px;
+              padding-left: 20px;
+              padding-right: 20px;
+              width: auto;
+            }
+            .sapCpButton:hover {
+              background: rgb(45,126,178);
+            }
